@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "question": "Which is the largest ocean on Earth?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Pacific Ocean"
+    ],
+    "answer": "Pacific Ocean"
+  },
+  {
+    "id": 2,
+    "question": "Who painted the famous 'Mona Lisa'?",
+    "options": [
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Claude Monet"
+    ],
+    "answer": "Leonardo da Vinci"
+  },
+  {
+    "id": 3,
+    "question": "What is the hardest natural substance on Earth?",
+    "options": ["Gold", "Iron", "Diamond", "Platinum"],
+    "answer": "Diamond"
+  },
+  {
+    "id": 4,
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": ["China", "Japan", "South Korea", "Thailand"],
+    "answer": "Japan"
+  },
+  {
+    "id": 5,
+    "question": "What is the capital city of France?",
+    "options": ["Berlin", "Madrid", "Rome", "Paris"],
+    "answer": "Paris"
+  },
+  {
+    "id": 6,
+    "question": "Which gas do plants absorb from the atmosphere for photosynthesis?",
+    "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+    "answer": "Carbon Dioxide"
+  },
+  {
+    "id": 7,
+    "question": "How many colors are there in a rainbow?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "7"
+  },
+  {
+    "id": 8,
+    "question": "Which planet is known as the 'Red Planet'?",
+    "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "answer": "Mars"
+  },
+  {
+    "id": 9,
+    "question": "Which is the smallest country in the world by land area?",
+    "options": ["Monaco", "Maldives", "Vatican City", "San Marino"],
+    "answer": "Vatican City"
+  },
+  {
+    "id": 10,
+    "question": "What is the largest animal currently living on Earth?",
+    "options": ["African Elephant", "Blue Whale", "Colossal Squid", "Giraffe"],
+    "answer": "Blue Whale"
+  }
+]
