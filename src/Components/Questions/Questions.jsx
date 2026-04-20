@@ -46,7 +46,7 @@ const Questions = ({
       </div>
       <button
         className="btn btn-primary btn-block text-base h-auto py-4 px-6 mt-8"
-        onClick={() => hanldleNext(currentQuiz)}
+        onClick={() => hanldleNext(currentQuiz, quizData.length)}
         disabled={!selected}
       >
         {currentIndex === totalQuestion - 1 ? "Finish Quiz" : "Next Quiz"}
