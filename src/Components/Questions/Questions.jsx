@@ -9,8 +9,27 @@ const Questions = ({
 }) => {
   const quizData = use(quizPromise);
   const currentQuiz = quizData[currentIndex];
+
+  const totalQuestion = quizData.length;
   return (
     <div>
+      <div>
+        <div className="flex justify-between">
+          <span>
+            Question {currentIndex + 1} of {totalQuestion}
+          </span>
+          <span className="badge badge-outline">
+            {((currentIndex + 1) / totalQuestion) * 100}%
+          </span>
+        </div>
+
+        <progress
+          className="progress progress-primary w-full"
+          value={currentIndex + 1}
+          max={totalQuestion}
+        ></progress>
+      </div>
+
       <h2 className="text-2xl font-semibold my-8 leading-tight">
         {currentQuiz.question}
       </h2>
@@ -30,7 +49,7 @@ const Questions = ({
         onClick={() => hanldleNext(currentQuiz)}
         disabled={!selected}
       >
-        Finish Quiz
+        {currentIndex === totalQuestion - 1 ? "Finish Quiz" : "Next Quiz"}
       </button>
     </div>
   );
